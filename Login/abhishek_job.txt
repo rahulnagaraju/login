@@ -1,0 +1,9 @@
+1. Check if product already in cart if yes change it using key,value 
+if not, append it
+
+2. Delete products from Cart---------------from body <- product name 
+
+//change flag somewhere else in addtocart function
+
+1. 300 2 600
+2. 200 3 600  1200

@@ -1,0 +1,11 @@
+<!-- {{define "display"}}
+{{ range $product := .products }}
+    <h6>{{ $product}}</h6>
+{{end}}
+{{end}} -->
+
+<!-- {{define "display"}}
+{{ for _,value:=range products}}
+    <h6>{{ value}}</h6>
+{{end}}
+{{end}} -->

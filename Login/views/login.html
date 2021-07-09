@@ -1,0 +1,29 @@
+
+{{define "login"}}
+<html>
+    <title>Urban kart</title>
+    
+    <body style="color:rgb(9, 10, 10);font-family:courier;font-size:20px;background-size: cover;width:500;border: 40px solid rgb(27, 210, 223);align-content: center;text-align: center;">
+      <center><strong><h1 style="color:rgb(224, 24, 24);font-size: 50px;text-align: left;border: 20px solid tomato;">Welcome to Urban Kart😊</h1></strong></center><hr>
+<center>
+  <div></div><div></div>
+  <img src=http://goi2l15njka4zxbg462znzuu.wpengine.netdna-cdn.com/wp-content/uploads/2017/09/ecommerce-cart-gif.gif alt="Urban cart logo" style="width:150px;height:150px;">
+<form action="/loginn" target="_blank" autocomplete="on" name="login" method="POST">
+  <fieldset>
+    <legend>Login as user or ADMIN</legend>
+  <label for="Name">Name:   </label>
+  <input type="text" id="name" name="name" placeholder="dilip" required autofocus><br><br>
+  <label for="Mob">Mobile num : </label>
+  <input type="tel" id="Mob" name="mob" placeholder="8884670687" pattern="[0-9]{10}" required><br><br>
+  <label for="add">address :  </label>
+  <input type="text" id="add" name="add" placeholder="banglore" required><br><br>
+  <br>
+  <button type="submit" value="sumit">Submit</button>
+  <button type="button" onclick="alert('Enter Proper credentials')">Login as ADMIN!</button>
+  <br><input type="reset">
+  </fieldset>
+</form>
+</center>
+</body>
+</html>
+{{end}}
